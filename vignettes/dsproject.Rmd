@@ -1,0 +1,39 @@
+---
+title: "dsproject"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dsproject}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+Here is an article on using the `dsproject` package.
+
+### Description
+
+This package simplifies and streamlines the setup process for users to begin data analysis in R. Functions included in this package ensure that the user is able to properly create a new project, import a data frame, and install/load necessary packages.
+
+### Examples
+
+```{r, eval=FALSE}
+library(dsproject)
+
+# EXAMPLES HERE --> CHECK EXAMPLES
+mydata <- import(datafile.dta)}
+
+make_project(project = myproject)
+make_project(project = myproject2, folders = c("first", "second", "third", "fourth", "R"))
+
+use(dplyr)
+use(ggplot2)
+
+```
