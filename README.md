@@ -1,8 +1,8 @@
 # dsproject Package
 
-## Please enjoy this picture I took
+## Please enjoy this picture of my lovely dog and grandmother
 
-![Test1](spoopymuzik.png)
+![image](mygals.jpg)
 
 ## Package Overview
 
