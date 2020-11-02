@@ -1,12 +1,8 @@
 # dsproject Package
 
-## Here's a Nice Graphic
-
-HOW TO GET THIS TO ADD PICTURE ON SITE??
+## Please enjoy this picture I took
 
 ![Test1](spoopymuzik.png)
-
-Note: Works in markdown preview but not on site??
 
 ## Package Overview
 
