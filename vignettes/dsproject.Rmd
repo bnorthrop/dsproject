@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 # Introduction
 
-Here is an article on using the `dsproject` package.
+Here is a brief article on using the `dsproject` package.
 
 ### Description
 
@@ -27,8 +27,7 @@ This package simplifies and streamlines the setup process for users to begin dat
 ```{r, eval=FALSE}
 library(dsproject)
 
-# EXAMPLES HERE --> CHECK EXAMPLES
-mydata <- import(datafile.dta)}
+mydata <- import(datafile.dta)
 
 make_project(project = myproject)
 make_project(project = myproject2, folders = c("first", "second", "third", "fourth", "R"))

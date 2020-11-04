@@ -12,7 +12,6 @@
 #'
 #' @return a data frame
 #' @examples
-#' # CHECK_EXAMPLES_HERE
 #' \dontrun{
 #' mydata <- import(datafile.dta)
 #' }

@@ -18,7 +18,6 @@ a data frame
 Import function takes a file specified by the user and imports it into R as a data frame.
 }
 \examples{
-# CHECK_EXAMPLES_HERE
 \dontrun{
 mydata <- import(datafile.dta)
 }

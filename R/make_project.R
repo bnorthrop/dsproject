@@ -1,6 +1,7 @@
 #' Make Project Function
 #'
 #' The make project function creates a new project for the user to work in.
+#' The function also creates a set of sub-folders stored in the same working directory.
 #'
 #' @param project name of project
 #' @param path location project will be created in
@@ -12,11 +13,8 @@
 #' @export
 #'
 #' @examples
-#' # CHECK_EXAMPLES_HERE
-#' \dontrun{
-#' make_project(project = myproject)
-#' make_project(project = myproject2, folders = c("first", "second", "third", "fourth", "R"))
-#' }
+#' \dontrun{ make_project(project = myproject)}
+#' \dontrun{ make_project(project = myproject2, folders = c("first", "second", "third", "fourth", "R"))}
 make_project <- function (project,
                   path = getwd(),
                   folders = c("figures", "documentation",

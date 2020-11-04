@@ -25,11 +25,9 @@ make_project(
 }
 \description{
 The make project function creates a new project for the user to work in.
+The function also creates a set of sub-folders stored in the same working directory.
 }
 \examples{
-# CHECK_EXAMPLES_HERE
-\dontrun{
-make_project(project = myproject)
-make_project(project = myproject2, folders = c("first", "second", "third", "fourth", "R"))
-}
+\dontrun{ make_project(project = myproject)}
+\dontrun{ make_project(project = myproject2, folders = c("first", "second", "third", "fourth", "R"))}
 }

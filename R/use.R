@@ -1,6 +1,6 @@
-#' Use Package Function
+#' Use Function
 #'
-#' The use (package) function installs and loads a package specified by the user.
+#' The use function installs and loads a package specified by the user after asking for confirmation.
 #'
 #' @param pkg package to install and load
 #'
@@ -9,11 +9,8 @@
 #' @seealso [install.packages()] [library()] [require()]
 #'
 #' @examples
-#' # CHECK_EXAMPLES_HERE
-#' \dontrun{
-#' use(dplyr)
-#' use(ggplot2)
-#' }
+#' \dontrun{ use(dplyr)}
+#' \dontrun{ use(ggplot2)}
 use <- function(pkg) {
   pkg <- as.character(substitute(pkg))
   if (!suppressWarnings(require(pkg, character.only = TRUE))) {

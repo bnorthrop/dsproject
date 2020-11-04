@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Use Package Function — use • dsproject</title>
+<title>Use Function — use • dsproject</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Use Package Function — use" />
-<meta property="og:description" content="The use (package) function installs and loads a package specified by the user." />
+<meta property="og:title" content="Use Function — use" />
+<meta property="og:description" content="The use function installs and loads a package specified by the user after asking for confirmation." />
 
 
 
@@ -106,13 +106,13 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Use Package Function</h1>
+    <h1>Use Function</h1>
     
     <div class="hidden name"><code>use.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>The use (package) function installs and loads a package specified by the user.</p>
+    <p>The use function installs and loads a package specified by the user after asking for confirmation.</p>
     </div>
 
     <pre class="usage"><span class='fu'>use</span><span class='op'>(</span><span class='va'>pkg</span><span class='op'>)</span></pre>
@@ -131,11 +131,8 @@
     <div class='dont-index'><p><code><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages()</a></code> <code><a href='https://rdrr.io/r/base/library.html'>library()</a></code> <code><a href='https://rdrr.io/r/base/library.html'>require()</a></code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='co'># CHECK_EXAMPLES_HERE</span>
-<span class='kw'>if</span> <span class='op'>(</span><span class='cn'>FALSE</span><span class='op'>)</span> <span class='op'>{</span>
-<span class='fu'>use</span><span class='op'>(</span><span class='va'>dplyr</span><span class='op'>)</span>
-<span class='fu'>use</span><span class='op'>(</span><span class='va'>ggplot2</span><span class='op'>)</span>
-<span class='op'>}</span>
+    <pre class="examples"><div class='input'><span class='kw'>if</span> <span class='op'>(</span><span class='cn'>FALSE</span><span class='op'>)</span>  <span class='fu'>use</span><span class='op'>(</span><span class='va'>dplyr</span><span class='op'>)</span>
+<span class='kw'>if</span> <span class='op'>(</span><span class='cn'>FALSE</span><span class='op'>)</span>  <span class='fu'>use</span><span class='op'>(</span><span class='va'>ggplot2</span><span class='op'>)</span>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

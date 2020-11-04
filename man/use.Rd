@@ -2,7 +2,7 @@
 % Please edit documentation in R/use.R
 \name{use}
 \alias{use}
-\title{Use Package Function}
+\title{Use Function}
 \usage{
 use(pkg)
 }
@@ -10,14 +10,11 @@ use(pkg)
 \item{pkg}{package to install and load}
 }
 \description{
-The use (package) function installs and loads a package specified by the user.
+The use function installs and loads a package specified by the user after asking for confirmation.
 }
 \examples{
-# CHECK_EXAMPLES_HERE
-\dontrun{
-use(dplyr)
-use(ggplot2)
-}
+\dontrun{ use(dplyr)}
+\dontrun{ use(ggplot2)}
 }
 \seealso{
 \code{\link[=install.packages]{install.packages()}} \code{\link[=library]{library()}} \code{\link[=require]{require()}}
